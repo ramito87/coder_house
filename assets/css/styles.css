@@ -1,0 +1,668 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+    color:#197168;
+    text-align: center;
+
+}
+
+
+
+/* inicio container */
+
+.container {
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-bottom: 40px;
+    min-height: 600px;
+}
+
+/* fin container */
+
+/* Inicio header */
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: center;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    height: 100px;
+}
+
+/* inicia logo */
+.logo {
+    flex-grow: 1;
+    flex-basis: 46%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.image-logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* fin logo */
+
+/* inicia menu */
+.menu {
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.menu>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+}
+
+.menu a {
+    padding: 15px;
+    color: #1E766D;
+}
+
+a{
+    color: #1E766D;
+    transition: 300ms all;
+}
+
+a:hover{
+    color: #f13e3e;
+}
+
+/* fin menu */
+
+/* inicia contenido INDEX*/
+/* inicia Banner */
+.banner {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.edsrobotics.com/wp-content/uploads/2020/06/tecnologia-4.0.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    padding: 10px 0 10px 0;
+    min-height: 300px;
+    animation: latir infinite 5s linear;
+}
+
+@keyframes latir {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.02, 1.02);
+    }
+
+    55%{
+        transform: scale(0.95, 0.95);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+
+
+.banner h1 {
+
+    text-transform: uppercase;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 400;
+    
+}
+
+.banner p {
+
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+/* fin Banner */
+
+/* inicia aliado */
+
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.titulo-aliado {
+    margin-top: 30px;
+}
+
+
+.titulo-aliado h2{
+    font-size: 40px;
+}
+
+.titulo-aliado p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.project-info a{
+    font-size: 25px;
+}
+
+.image-wrap {
+    width: 250px;
+    height: 180px;
+    order: -1;
+}
+
+
+/* fin aliado */
+
+/* inicio hacemos */
+
+.loquehacmeos{
+    padding: 30px 0px 30px 0px;
+}
+
+.hacemos {
+
+    padding: 30px 0 10px 0;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+
+}
+
+.hacemos-titulo h2{
+    font-size: 40px;
+}
+
+.hacemos-titulo p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.tabla {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 455px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: justify;
+
+}
+
+.tabla ul li {
+    list-style: none;
+}
+
+/* fin hacemos */
+
+/* inicia contacto */
+
+.area_contacto {
+    display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 1rem;
+
+}
+
+.content-contacto{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.asesoria {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    text-align: justify;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+
+form{
+    width: 100%;
+}
+
+.form-group input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+
+
+
+/* fin contacto */
+
+/* inicio footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    background-color: rgba(30, 118, 109, 0.5);
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    height: auto;
+}
+
+
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+
+
+
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    text-align: justify;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    text-align: justify;
+    align-items: center;
+
+}
+
+.footer ul li{
+    list-style: none;
+    font-size: 25px;
+}
+
+
+/* fin footer */
+/* fin contenidoINDEX */
+
+/* inicio contenido NOSOTROS */
+/* inicia bstech */
+.empresa {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.info-empresa {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.txt-titulo-empresa{
+    padding: 30px 0px 30px 0px;
+    font-size: 40px;
+}
+
+.txt-empresa{
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border: solid 1px #ccc;
+    text-align: justify;
+}
+
+.img-empresa{
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border: solid 1px #ccc;
+}
+
+.img-empresa img {
+    width: 100%;
+}
+
+
+
+/* termina bstech */
+
+/* inicia somos */
+
+.equipo {
+    display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 1rem;
+}
+
+.txt-somos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.txt-somos{
+    font-size: 40px;
+}
+
+
+
+.personas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin: 20px 20px 20px 20px ;
+}
+
+.persona{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+
+
+.img-equipo img {
+    width: 300px;
+    height: 300px;
+}
+
+/* termina somos */
+
+
+/* inicia como trabajamos */
+.trabajamos {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 1rem;
+
+
+}
+
+.txt-trabajamos {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.txt-trabajamos h2{
+    font-size: 40px;
+}
+
+
+
+.valores-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1rem;
+    text-align: justify;
+}
+
+.titulo-valor{
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.titulo-valor i{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.valor{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+/* fin como trabajamos */
+/* inicio servicio */
+
+.servicios {
+    display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 1rem;
+}
+
+.servicio-izquierda {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: justify;
+}
+
+.servicio {
+    display: flex;
+    text-align: justify;
+}
+
+.servicios-titulo h2{
+    font-size: 40px;
+}
+
+.servicios-titulo p{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.servicio-info a{
+    font-size: 30px;
+}
+
+.imagen-servicio img {
+    width: 500px;
+    height: 500px;
+}
+
+/* fin servicio */
+
+/* inicio contacto */
+
+.iconos-contacto{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 1rem;
+
+}
+
+.contacto-titulo h2{
+    font-size: 40px;
+}
+
+.contacto-titulo p{
+    font-size: 30px;
+}
+.area-iconos {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.info-iconos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+    font-size: 20px;
+}
+
+.icono {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin-bottom: 25px;
+
+}
+
+.txt-contacto h2{
+    font-size: 40px;
+}
+
+.content-contacto h3{
+    font-size: 30px;
+}
+
+.content-contacto p{
+    font-size: 20px;
+}
+
+
+
+
+.area_mapa {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.txt-mapa h2{
+    font-size: 40px;
+}
+
+.mapa img{
+    width: 100%;
+    height: 300px;
+}
+
+
+/* fin contacto */
+
+/* inicio tienda */
+.tienda {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+
+}
+
+.producto {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border: solid 1px #ccc;
+}
+
+.producto img {
+    width: 100%;
+}
+
+#aside-tienda {
+    flex-basis: 15%;
+    margin-right: 30px;
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+#aside-tienda h2 {
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+#aside-tienda ul {
+    list-style: none;
+}
+
+#aside-tienda ul li {
+    padding-bottom: 20px;
+}
+
+/* fin tienda */
+/* fin contenido NOSOTROS */
