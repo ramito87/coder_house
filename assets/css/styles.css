@@ -1,0 +1,113 @@
+/* estilos de color */
+
+/* Menu */
+
+.bg-bstech {
+  background-color: white;
+  opacity: 1;
+}
+
+.menu-brand {
+  color: #1e766d;
+  text-decoration: none;
+  transition: color 4s;
+  -webkit-transition: color 4s;
+  -moz-transition: color 4s;
+  -ms-transition: color 4s;
+  -o-transition: color 4s;
+}
+
+.menu-brand:hover {
+  color: #1e766d;
+  opacity: 0.3;
+}
+
+.link-bstech {
+  color: #1e766d;
+}
+
+/* fin menu */
+/* inicia contenido */
+
+/* inicia Carusel */
+
+.bg-bstechgreen {
+  background-color: #1e766d;
+}
+
+.carousel-item img {
+  height: 370px;
+  width: 1324px;
+}
+
+.carousel-caption h5 {
+  color: #1e766d;
+}
+
+.carousel-caption p {
+  color: #1e766d;
+  opacity: 0.9;
+}
+
+/* Fin Carusel */
+
+/*  inicia aliado */
+.card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),    0.3s box-shadow,    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 80px 18px 36px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),    0.3s box-shadow,    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  -moz-transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),    0.3s box-shadow,    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  -ms-transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),    0.3s box-shadow,    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  -o-transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),    0.3s box-shadow,    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.stroke {
+  -webkit-text-stroke: 1px black;
+}
+
+.parallax {
+  background-image: url("/assets/img/telco.jpg");
+
+  height: 70px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: .5;
+}
+
+/*  fin aliado */
+
+/* incia footer */
+
+.bg-footer {
+  background-color: #eceff1;
+}
+
+.bg-socialmedia {
+  background-color: #21d192;
+}
+
+.linea {
+  width: 60px;
+  background-color: #7c4dff;
+  height: 2px;
+}
